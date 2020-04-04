@@ -1,2 +1,2 @@
-# CoronavirusInformation
+# Coronavirus Information
 this site
