@@ -5,9 +5,16 @@
 <head>
 <title> Diagnostics </title>
 
+
+
+
 <h1> Diagnostics </h1>
+
+<form action="submission.html" method="POST">
+
+
 <h2> Do you have a fever? </h2>
-<form>
+
 <label for="yes"> yes </label>
 <input id="yes" type="checkbox" value="yes" name="answer1"> <br>
 
@@ -15,11 +22,11 @@
 <input id="no" type="checkbox" value="no" name="answer1"
 
 
-</form>
+
 
 <br>
 
-<form action="submission.html" method="POST">
+
 <label for="countries"> Have you ever visited the following countries in the past two months?
 </label>
 <input type="text" list="country" id="countries" name="answer2">
@@ -35,10 +42,13 @@
 <option value="Belgium">Belgium</option>
 <option value="Netherlands">Netherlands</option>
 </datalist>
-</form>
+
 
 <input type="submit" value="submit">
 </input>
 
+
+
+</form>
 
 </html>
