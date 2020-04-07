@@ -1,18 +1,31 @@
 
 
-h1 {
-color: maroon;
+.sectiontitle{
+color: cyan;
 
 }
 
 
 .footer {
 	font-size:20px;
-	color:red;
-	
+	color:green;
+	font-family: georgia;
 }
 
 
-.image {
-	border-width: 20px;
+.nav{
+	font-size: 20px;
+	color: orange;
+	font-family: georgia
+}
+
+.donationtitle{
+	background-image: url("https://equalopportunityfoundation.org/wp-content/uploads/2019/08/bigstock-Make-a-Donation-Charity-Donate-140880731.jpg");
+
+}
+
+.button{
+	background-color: red;
+	font-size: 30px;
+	font-family: calibri;
 }
