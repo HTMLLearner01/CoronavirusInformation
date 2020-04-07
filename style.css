@@ -1,16 +1,18 @@
-<style>
-p {
-font-size:"10";
-font-color:"red";
-font-weight: 3px;
-font: arial;
+
+
+h1 {
+color: maroon;
 
 }
 
-.footer{
-font-color:"red";
+
+.footer {
+	font-size:20px;
+	color:red;
 	
 }
 
 
-</style>
+.image {
+	border-width: 20px;
+}
