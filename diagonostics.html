@@ -4,7 +4,7 @@
 <html>
 <head>
 <title> Diagnostics </title>
-
+<link rel="stylesheet" type="text/css" href="style.css">
 
 
 
@@ -24,26 +24,30 @@
 <input id="yes" type="radio" value="yes" name="answer1" > <br>
 
 <label for="no"> no </label>
-<input id="no" type="radio" value="no" name="answer1"
+<input id="no" type="radio" value="no" name="answer1">
+<br><br>
 
-<label for="name"> do you like math?</label>
+
+
+<label for="name"> Level of chest pain </label>
 
 <select id="name">
-<option value="Jeff"> </option>
-<option value="Bezos"> </option>
-<option value="Nina"> </option>
-<option value="john"> </option>
-<option value="Howie"> </option>
+<option value="">No pain</option>
+<option value="">Only when running</option>
+<option value="">Abnormal pain</option>
+<option value="">Moderate pain</option>
+<option value="">Severe pain</option>
 </select>
 
 
 <br><br>
 
 
-<label for="countries"> Have you ever visited the following countries in the past two months?
+<label for="countries"> Have you ever visited the following countries since November 2019?
 </label>
-<input type="text" list="country" id="countries" name="answer2">
-<datalist id="country" name=answer2>
+<input type="text" list="country" id="countries" name="country">
+<datalist id="country" name=answer2 value="Not applicable">
+<option value="Not applicable">Not applicable</option>
 <option value="United States">United States</option>
 <option value="Spain">Spain</option>
 <option value="Italy">Italy</option>
@@ -55,6 +59,18 @@
 <option value="Belgium">Belgium</option>
 <option value="Netherlands">Netherlands</option>
 </datalist>
+&emsp;
+<label for="timevisitedcountry"> If so, when? </label>
+<input type="text" id="timevisitedcountry" list="timecountry" name="time visited country" >
+<datalist id="timecountry" name="timevisitedcountry">
+<option value="November">November</option>
+<option value="December">December</option>
+<option value="January">January</option>
+<option value="February">February</option>
+<option value="March">March</option>
+</datalist>
+
+
 
 <br>
 
@@ -64,5 +80,12 @@
 
 
 </form>
+
+
+<br><br>
+<a id="homepage" href="./index.html">Back to Homepage</a>
+
+
+
 
 </html>

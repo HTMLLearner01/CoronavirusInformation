@@ -1,7 +1,13 @@
 
 
 .sectiontitle{
-color: cyan;
+color: black;
+text-align: center;
+background-color: cyan ;
+padding: 80px 30px;
+border-radius: 10px;
+font-size: 50px;
+opacity: 60%
 
 }
 
@@ -14,9 +20,11 @@ color: cyan;
 
 
 .nav{
-	font-size: 20px;
-	color: orange;
-	font-family: georgia
+	color: black;
+text-align: center;
+background-color: red ;
+padding: 20px 30px;
+border-radius: 10px;
 }
 
 .donationtitle{
@@ -37,16 +45,36 @@ color: cyan;
 	font-size: 20px;
 	font-family: calibri;
 	color: rgb(169, 45, 214);
-	padding: 1px 1px;
+	padding: 10px 10px;
+border-radius: 5px;
 }
+
+.box{
+	background-color: rgb(107, 227, 207);
+	height: 300px;
+	width: 300px;
+	    margin: 10px 10px 60px 10px;
+	font-size: 20px;
+	font-family: calibri;
+	color: rgb(169, 45, 214);
+	padding: 30px 30px;
+border-radius: 15px;
+overflow-y: scroll;
+
+}
+
+
+
 
 #homepage{
-	backgroudn-color: green;
+	font-size: 20px;
+	color: green;
 	padding: 10px 10px;
+	text-align: right;
+}
+.donationcontinent{
 	text-align: center;
 }
-
-
 
 
 
